@@ -50,6 +50,9 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
             alert.addAction(UIAlertAction(title: "OK", style: .cancel))
             
             present(alert, animated: true)
+            
+            passwordTextField.text = ""
+            
             return
         }
     }

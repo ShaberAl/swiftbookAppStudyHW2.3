@@ -35,7 +35,7 @@
                                         <buttonConfiguration key="configuration" style="plain" title="Log In"/>
                                         <connections>
                                             <action selector="loginButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lh7-k5-b3n"/>
-                                            <segue destination="m04-40-I3I" kind="show" identifier="welcome" id="9il-f4-PC0"/>
+                                            <segue destination="m04-40-I3I" kind="presentation" identifier="welcome" modalPresentationStyle="fullScreen" id="9il-f4-PC0"/>
                                         </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="zpm-1b-tRv">
@@ -89,11 +89,11 @@
             <objects>
                 <viewController id="m04-40-I3I" customClass="WelcomeViewController" customModule="swiftbookAppStudyHW2_3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hlQ-bi-zSa">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="755"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="3mi-5M-C1N">
-                                <rect key="frame" x="145.33333333333334" y="320.33333333333331" width="84.666666666666657" height="114.66666666666669"/>
+                                <rect key="frame" x="145.33333333333334" y="348.66666666666669" width="84.666666666666657" height="114.66666666666669"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GKa-k2-m3F">
                                         <rect key="frame" x="3" y="0.0" width="78.333333333333329" height="20.333333333333332"/>
@@ -102,7 +102,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0SD-UK-Fht">
-                                        <rect key="frame" x="0.0" y="80.333333333333371" width="84.666666666666671" height="34.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="80.333333333333314" width="84.666666666666671" height="34.333333333333343"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Log Out"/>
                                         <connections>
